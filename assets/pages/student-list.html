@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/student-list.css">
+    <script src="../js/cursos/studentsList.js" defer type="module"></script>
+    <script src="https://kit.fontawesome.com/2bbeedebb6.js" crossorigin="anonymous"></script>
+    <title>Student List</title>
+</head>
+<body>
+    <header>
+        <div class="div-header">
+            <div>
+                <img src="../img/logo.png" alt="logo">
+            </div>
+            <div>
+                <a href="/home.html">
+                    <img src="../img/back.png" alt="back">
+                </a>   
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="legenda">
+            <select name="status" id="status" class="menu">
+                <option value="status">Status</option>
+                <option value="finalizado">Finalizado</option>
+                <option value="cursando">Cursando</option>
+            </select>
+
+            <div class="subtitle">
+                <span class="text-legenda">LEGENDA</span>
+                <div class="cursando">
+                    <div class="div-azul"></div>
+                    <div class="text-cursando">Cursando</div>
+                </div>
+                <div class="finalizado">
+                    <div class="div-amarela"></div>
+                    <div class="text-finalizado">Finalizado</div>
+                </div>
+            </div>
+        </div>
+        <h1 class="title"></h1>
+        <div class="alunos" id="alunos"></div>
+    </main>
+    <footer>
+        <div class="infos-container">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>(11) 4774-4700</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>lionschool@gmail.com</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Rua tcc, 211,  Centro, Jandira</span>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <span>Copyright 2022 © | Milena Araujo</span>
+        </div>
+        <div class="social-container">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
