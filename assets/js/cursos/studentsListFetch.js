@@ -1,7 +1,7 @@
 'use strict'
 
 const getAlunos = async (curso) => {
-    const url = `http://localhost:8080/alunoscursos/${curso}`
+    const url = `https://lustrous-squirrel-f9bee8.netlify.app/.netlify/functions/api/alunoscursos/${curso}`
 
     const response = await fetch(url)
     const listaAlunos = await response.json()
